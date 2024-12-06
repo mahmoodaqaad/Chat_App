@@ -9,7 +9,7 @@ import Login from './Pages/Login'
 import NavBar from './Components/NavBar'
 import { useContext } from 'react'
 import { AuthContext } from './context/AuthContext'
-import ChatContextPrvider from './context/chatContext'
+import ChatContextPrvider from './context/ChatContext'
 const App = () => {
   const { user } = useContext(AuthContext)
 
