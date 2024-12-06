@@ -1,7 +1,7 @@
 import { Alert } from "react-bootstrap"
 import { useState } from "react"
 import { postRequest } from "../utils/services"
-const Register = () => {
+const Login = () => {
 
   const [registerLoading, setRegisterLoading] = useState(false)
   const [error, setError] = useState("")
@@ -63,4 +63,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Login
