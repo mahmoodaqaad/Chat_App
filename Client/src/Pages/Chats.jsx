@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useContext } from "react"
 import { AuthContext } from "../context/AuthContext"
-import { chatConext } from "../context/chatContext"
+import { chatConext } from "../context/ChatContext"
 import { Stack } from "react-bootstrap"
 import UserChat from "../Components/Chats/UserChat"
 import PotentialChat from "../Components/Chats/potentialChats"

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react"
 import { AuthContext } from "../../context/AuthContext"
-import { chatConext } from "../../context/chatContext"
+import { chatConext } from "../../context/ChatContext"
 import { useFetchRecipientUser } from "../../hooks/useFetchRecipientUser"
 import { Stack } from "react-bootstrap"
 import moment from "moment"

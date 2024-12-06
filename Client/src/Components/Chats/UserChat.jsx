@@ -3,7 +3,7 @@ import { useFetchRecipientUser } from "../../hooks/useFetchRecipientUser"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle } from '@fortawesome/free-regular-svg-icons'
 import { useContext } from "react";
-import { chatConext } from "../../context/chatContext";
+import { chatConext } from "../../context/ChatContext";
 import { unReadNotificationFun } from "../../utils/unReadNotifications";
 import { UseFetchLatestMessages } from "../../hooks/useFetchLatestMessage";
 import moment from "moment";
